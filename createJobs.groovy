@@ -6,17 +6,3 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('book-inventory-job') {
-    definition {
-        cpsScm {
-            scm {
-                git {
-                    remote {
-                        url 'https://github.com/Egwonor/test.git'
-                    }
-                    branch 'master'
-                }
-            }
-        }
-    }
-}
