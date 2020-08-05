@@ -12,7 +12,7 @@ pipelineJob('book-inventory-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example.git'
+                        url 'https://github.com/Egwonor/book-inventory.git'
                     }
                     branch 'master'
                 }
