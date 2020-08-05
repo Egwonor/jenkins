@@ -12,7 +12,7 @@ pipelineJob('book-inventory-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/Egwonor/book-inventory.git'
+                        url 'https://github.com/Egwonor/book-inventory/tree/master/book-inventory'
                     }
                     branch 'master'
                 }
